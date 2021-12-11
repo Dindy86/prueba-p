@@ -1,0 +1,68 @@
+/*------------------------Contacto.html------------------------------*/
+.formCrearCuenta{
+  width: 100%;
+  margin: auto;
+  border: 2px solid $color-primary;
+  padding: 0.62rem 1.25rem;
+  box-sizing: border-box;
+  margin-top: 1.25rem;
+  border-radius: 0.43rem;
+  text-align: center;
+  .formCrearCuenta__title{
+    color: $color-primary;
+    text-align: center;
+    margin: 0;
+    font-weight:900;
+    font-size: 1.8rem;
+    font-family: $fontFamily-primary;
+  }
+  .formCrearCuenta__input{
+    width: 100%;
+    margin-top: 1.25rem;
+    padding: 0.43rem;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 1.06rem;
+    margin-top: 1.25rem;
+    outline: none;
+  }
+  .form__CrearCuentaCheckbox{
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem !important;
+    .form__checkbox{
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+
+
+  .formCrearCuenta__button{
+    background: $color-primary;
+    color: #fff;
+    padding: 0.7rem;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  .formCrearCuenta__button:hover{
+    cursor: pointer;
+    background: #4368c5;
+  }
+  .formCrearCuenta__question{
+      padding-bottom: 1.25rem;
+      margin-top: 1.25rem;
+      .formCrearCuenta__link{
+        text-decoration: none;
+        color:$color-primary;    
+    }   
+  }
+  
+}
+@media (min-width:480px) {
+  .formCrearCuenta{
+    width: 480px;
+  }
+}
